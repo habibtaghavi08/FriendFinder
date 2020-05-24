@@ -1,10 +1,12 @@
 body{
-    background-color: slateblue;
+    /* background-color: slateblue; */
+    background-color: slategrey;
     color: yellow;
 }
 
 .jumbotron{
-    background-image: url(../images/friend-girl-icon-ball.jpg);
+    background-image: url(../images/friend-girl-icon-ball.jpg); 
+    /* background-color: slateblue; */
     opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
@@ -14,11 +16,16 @@ body{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif ;
     font-size: 50px;
-    text-shadow: red 7px 7px 7px;
-    border: yellow 10px;
-    border-width: 10px;
+    text-shadow: red 10px 10px 10px;
+    border: yellow 15px;
+    border-width: 15px;
     border-style: double;
 
+}
+
+footer{
+    font: yellow;
+    text-shadow: red 5px 5px 5px;
 }
 
 .btn-danger{
