@@ -1,17 +1,19 @@
 body{
     background-color: slateblue;
+    color: yellow;
 }
 
 .jumbotron{
     background-image: url(../images/friend-girl-icon-ball.jpg);
+    opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -20px;
     color: yellow;
     font-weight: bolder;
-    font-family: 'Japanett' 'Times New Roman', Times, serif ;
-    font-size: 58px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-size: 50px;
     text-shadow: red 7px 7px 7px;
     border: yellow 10px;
     border-width: 10px;
@@ -19,8 +21,9 @@ body{
 
 }
 
-.btn-dark{
+.btn-danger{
     float: right;
     color: yellow;
-    border: yellow 3px;
+    border: solid;
+    border-radius: 5px;
 }
