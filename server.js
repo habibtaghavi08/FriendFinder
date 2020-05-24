@@ -1,8 +1,9 @@
-// depentcies
+// dependencies
 var express = require("express")
 
+
 var app = express()
-// app selctor to creat all the route alos create server
+// app selector to creat all the route also create server
 
 var PORT = process.env.PORT ||8000
 
@@ -23,8 +24,10 @@ var htmlRoutes = require("./app/routing/htmlRoutes")
 apiRoutes(app)
 htmlRoutes(app)
 
+var apioRout
+
 // this will create server listen feature
 
 app.listen(PORT,function(){
-app.listen("PORT is listening on http://localhost:"+PORT)    
+console.log("PORT is listening on http://localhost:"+PORT)    
 })
