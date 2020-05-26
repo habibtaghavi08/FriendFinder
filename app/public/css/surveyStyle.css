@@ -6,35 +6,47 @@ body{
     
 }
 
- /* strong{
-    background-color: red;
-    opacity: 0.4;
-    fill-opacity-background: 0.4;
-    color: yellow;
-    font-weight: bold;
-    font-size: x-large;
-}/// */
+ h1{
+     text-emphasis-position: left;
+     text-emphasis-position: under;
+     color:yellow;
+     text-shadow: red -8px 8px 8px;
+     font-family: cursive;
+     font-weight: bolder;
+     text-align: center;
+     font-size: 78px;
+ }
+    
 
-h2{
-    color: yellow;
+h2{ 
+    text-emphasis-position: left;
+    text-emphasis-position: under;
+    color:yellow;
+    text-shadow: red -8px 8px 8px;
+    font-family: cursive;
     font-weight: bolder;
-    font-size: xx-large; 
-    text-shadow: red 3px 3px 4px;
+    text-align: center;
+    font-size: 60px;
 }  
 
 h3{
+    text-emphasis-position: left;
+    text-emphasis-position: under;
     color: red;
     font-weight: bolder;
     font-size: x-large; 
-    text-shadow: yellow 2px 2px 3px;
+    text-shadow: yellow -5px 3px 3px;
 }
 
 
 h4{
+    text-emphasis-position: left;
+    text-emphasis-position: under;
     color: yellow;
     font-weight: bold;
     font-size: x-large; 
-    text-shadow: red 3px 3px 4px;
+    text-shadow: red -5px 5px 5px;
+    text-emphasis: left;
 }
 
 .footer{
@@ -43,9 +55,11 @@ h4{
 } 
 
 a{
-  color:red;
+  text-emphasis-position: left;
+  text-emphasis-position: under;
+  color:yellow;
   font-weight: bolder;
-  text-shadow: yellow 2px 2px 3px;
+  text-shadow: red -3px 1px 1px;
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -56,6 +70,7 @@ a{
     border-color: red;
     font-size:large;
     border-width: 5px;
+    font-family: cursive;
 }
 
 .btn-lg:hover {
