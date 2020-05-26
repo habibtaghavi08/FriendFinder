@@ -16,16 +16,18 @@ body{
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif ;
     font-size: 50px;
-    text-shadow: red 10px 10px 10px;
+    text-shadow: red 4px 4px 4px;
     border: yellow 15px;
     border-width: 15px;
     border-style: double;
 
 }
 
-footer{
-    font: yellow;
-    text-shadow: red 5px 5px 5px;
+a{
+    color:  yellow;
+    text-shadow: red 4px 4px 4px;
+    font-weight: bold;
+    font-size: large;
 }
 
 .btn-danger{
