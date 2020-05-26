@@ -1,39 +1,48 @@
-body{
-    /* background-color: slateblue; */
+body {
+
     background-color: slategrey;
     color: yellow;
 }
 
-.jumbotron{
-    background-image: url(../images/friend-girl-icon-ball.jpg); 
-    /* background-color: slateblue; */
+.jumbotron {
+    background-image: url(../images/friend-girl-icon-ball.jpg);
     opacity: 0.9;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: 1px;
+    background-position-y: 0.5px;
     color: yellow;
     font-weight: bolder;
-    font-family: 'Times New Roman', Times, serif ;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 50px;
     text-shadow: red 2px 2px 2px;
-    border: yellow 15px;
-    border-width: 15px;
-    border-style: double;
+    border: yellow;
+    border-width: 18px;
+    border-style: ridge;
+    max-width: 100%;
 
 }
 
-a{
-    color:  yellow;
+a {
+    color: yellow;
     text-shadow: red 2px 2px 2px;
     font-weight: bold;
     font-size: large;
 }
 
-.btn-danger{
+.btn-danger {
     float: right;
     color: yellow;
-    border: solid ;
-    border-radius: 5px;
-    
+    border: ridge;
+    border-width: 5px;
+
+}
+
+.btn-danger:hover {
+    color:red;
+    background-color: yellow; 
+    border: ridge;
+    border-width: 5px;
+    border-color: red;
+
 }
