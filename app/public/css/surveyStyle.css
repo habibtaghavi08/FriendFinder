@@ -2,13 +2,13 @@ body{
     /* background-color: slateblue; */
     background-color: slategrey;
     color: yellow;
-    text-shadow: red 3px 3px 3px;
+    text-shadow: red 1px 1px 1px;
 }
 
 
 .footer{
     color:  yellow;
-    text-shadow: red 4px 4px 4px; 
+    text-shadow: red 3px 3px 3px; 
     font-weight: bold;
     font-size: large;
 }
@@ -16,3 +16,4 @@ body{
 a{
   color: yellow;
 }
+
