@@ -1,22 +1,69 @@
 body{
-    /* background-color: slateblue; */
     background-color: slategrey;
-    color: yellow;
-    text-shadow: red 1px 1px 1px;
+    color: red;
+    font-size: large;
+   
+    
 }
 
+ /* strong{
+    background-color: red;
+    opacity: 0.4;
+    fill-opacity-background: 0.4;
+    color: yellow;
+    font-weight: bold;
+    font-size: x-large;
+}/// */
+
+h2{
+    color: yellow;
+    font-weight: bolder;
+    font-size: xx-large; 
+    text-shadow: red 3px 3px 4px;
+}  
+
+h3{
+    color: red;
+    font-weight: bolder;
+    font-size: x-large; 
+    text-shadow: yellow 2px 2px 3px;
+}
+
+
+h4{
+    color: yellow;
+    font-weight: bold;
+    font-size: x-large; 
+    text-shadow: red 3px 3px 4px;
+}
 
 .footer{
-    color:  yellow;
-    text-shadow: red 3px 3px 3px; 
     font-weight: bold;
     font-size: large;
-}
+} 
 
 a{
-  color: yellow;
+  color:red;
+  font-weight: bolder;
+  text-shadow: yellow 2px 2px 3px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-#submit{
+.btn-lg{
+    background-color: yellow;
+    color: red;
+    border-style: ridge;
+    border-color: red;
+    font-size:large;
+    border-width: 5px;
+}
+
+.btn-lg:hover {
+    background-color:red;
     color: yellow;
+    border-style: ridge;
+    border-color: yellow;
+    font-size: large;
+    border-width: 5px;
+        
 }
