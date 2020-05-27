@@ -35,7 +35,7 @@ h3{
     color: red;
     font-weight: bolder;
     font-size: x-large; 
-    text-shadow: yellow -5px 3px 3px;
+    text-shadow: yellow -2px 1px 1px;
 }
 
 
@@ -45,7 +45,7 @@ h4{
     color: yellow;
     font-weight: bold;
     font-size: x-large; 
-    text-shadow: red -5px 5px 5px;
+    text-shadow: red -3px 3px 3px;
     text-emphasis: left;
 }
 
@@ -59,7 +59,7 @@ a{
   text-emphasis-position: under;
   color:yellow;
   font-weight: bolder;
-  text-shadow: red -3px 1px 1px;
+  text-shadow: red -2px 2px 2px;
   font-family: 'Times New Roman', Times, serif;
 }
 
